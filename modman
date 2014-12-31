@@ -1,0 +1,11 @@
+# Community
+app/code/local/*                                    app/code/local/
+
+# Modules' XML
+app/etc/modules/*                                   app/etc/modules/
+
+# JavaScript
+js/admin                                            js/admin
+
+# Adminhtml design
+app/design/adminhtml/default/default/layout/*       app/design/adminhtml/default/default/layout/

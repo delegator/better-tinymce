@@ -1,0 +1,7 @@
+<layout>
+  <default>
+    <reference name="head">
+            <action method="addJs"><script>admin/admin.js</script></action>
+        </reference>
+  </default>
+</layout>
