@@ -20,17 +20,17 @@
           {title: 'Div Wrapper', block: 'div', classes: 'cms'}
         ];
 
+        //redefines elements such that they will have classes automatically
         settings.formats = {
-          bold: {block: 'b', classes: 'cms'},
+          bold:   {block: 'b', classes: 'cms'},
           italic: {block: 'i', classes: 'cms'},
-          p: {block: 'p', classes: 'cms'},
-          h1: {block: 'h1', classes: 'cms'},
-          h2: {block: 'h2', classes: 'cms'},
-          h3: {block: 'h3', classes: 'cms'},
-          h4: {block: 'h4', classes: 'cms'}
+          p:      {block: 'p', classes: 'cms'},
+          h1:     {block: 'h1', classes: 'cms'},
+          h2:     {block: 'h2', classes: 'cms'},
+          h3:     {block: 'h3', classes: 'cms'},
+          h4:     {block: 'h4', classes: 'cms'}
         };
 
-        console.log(settings);
         return settings;
     }
   }
