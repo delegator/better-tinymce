@@ -3,13 +3,12 @@ class Delegator_Pages_PreviewController extends Mage_Core_Controller_Front_Actio
 {
   public function indexAction()
   {
-	$this->loadLayout();
-
+    $this->loadLayout();
     $crumbs = $this->getLayout()->getBlock('breadcrumbs');
-	if ($crumbs) {
-		$crumbs->addCrumb('home', array('label' => $this->__('home'), 'title' => 'Go to Home Page', 'link' => Mage::getBaseUrl()));
-		$crumbs->addCrumb('preview', array('label' => "DG Styles Preview", 'title' => 'DG Styles Preview'));
-	}
+    if ($crumbs) {
+      $crumbs->addCrumb('home', array('label' => $this->__('home'), 'title' => 'Go to Home Page', 'link' => Mage::getBaseUrl()));
+      $crumbs->addCrumb('preview', array('label' => "DG Styles Preview", 'title' => 'DG Styles Preview'));
+    }
 
     $this->renderLayout();
     return $this;

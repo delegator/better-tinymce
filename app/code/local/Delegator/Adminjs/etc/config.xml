@@ -1,11 +1,11 @@
 <config>
-    <adminhtml>
-        <layout>
-            <updates>
-                <delegator_adminjs>
-                    <file>adminjs.xml</file>
-                </delegator_adminjs>
-            </updates>
-        </layout>
-    </adminhtml>
+  <adminhtml>
+    <layout>
+      <updates>
+        <delegator_adminjs>
+          <file>adminjs.xml</file>
+        </delegator_adminjs>
+      </updates>
+    </layout>
+  </adminhtml>
 </config>

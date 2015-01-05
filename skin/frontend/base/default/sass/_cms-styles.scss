@@ -1,81 +1,81 @@
 h1.cms {
-    color: $primaryColor;
-    font-family: $headerFontFace;
-    font-weight: bold;
+  color: $primaryColor;
+  font-family: $headerFontFace;
+  font-weight: bold;
 
-    &:before {
-        content: ".";
-        visibility: hidden;
-        display: block;
-        height: 0;
-        clear:both;
-    }
+  &:before {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear:both;
+  }
 }
 
 h2.cms {
-    color: $secondaryColor;
-    font-family: $headerFontFace;
-    font-weight: bold;
+  color: $secondaryColor;
+  font-family: $headerFontFace;
+  font-weight: bold;
 
-    &:before {
-        content: ".";
-        visibility: hidden;
-        display: block;
-        height: 0;
-        clear:both;
-    }
+  &:before {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear:both;
+  }
 }
 
 h3.cms {
-    color: $secondaryColor;
-    font-family: $headerFontFace;
-    font-weight: bold;
+  color: $secondaryColor;
+  font-family: $headerFontFace;
+  font-weight: bold;
 
-    &:before {
-        content: ".";
-        visibility: hidden;
-        display: block;
-        height: 0;
-        clear:both;
-    }
+  &:before {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear:both;
+  }
 }
 
 h4.cms {
-    color: $secondaryColor;
-    font-family: $headerFontFace;
-    font-weight: bold;
+  color: $secondaryColor;
+  font-family: $headerFontFace;
+  font-weight: bold;
 
-    &:before {
-        content: ".";
-        visibility: hidden;
-        display: block;
-        height: 0;
-        clear:both;
-    }
+  &:before {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear:both;
+  }
 }
 
 div.cms, div.cms p {
-    font-family: $bodyFontFace;
-    font-size: $bodyFontSize;
-    margin-top: 20px;
+  font-family: $bodyFontFace;
+  font-size: $bodyFontSize;
+  margin-top: 20px;
 
-    ul {
-        margin: .5em 0em .5em 2em;
-        list-style-type: disc;
+  ul {
+    margin: .5em 0em .5em 2em;
+    list-style-type: disc;
 
-        li {
-            list-style-type: disc;
-        }
+    li {
+      list-style-type: disc;
     }
+  }
 
-    ol {
-        margin: .5em 0em .5em 2em;
-        list-style-type: decimal;
-    }
+  ol {
+    margin: .5em 0em .5em 2em;
+    list-style-type: decimal;
+  }
 
-    a {
-        color: $secondaryColor;
-        font: $bodyFontFace;
-        text-decoration: underline;
-    }
+  a {
+    color: $secondaryColor;
+    font: $bodyFontFace;
+    text-decoration: underline;
+  }
 }
