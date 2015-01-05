@@ -7,5 +7,9 @@ app/etc/modules/*                                   app/etc/modules/
 # JavaScript
 js/admin                                            js/admin
 
-# Adminhtml design
+# Adminhtml Design
 app/design/adminhtml/default/default/layout/*       app/design/adminhtml/default/default/layout/
+
+#Design
+app/design/frontend/base/default/layout/*           app/design/frontend/base/default/layout/
+app/design/frontend/base/default/template/*         app/design/frontend/base/default/template/

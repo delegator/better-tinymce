@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Delegator_Pages>
+			<version>0.1.0</version>
+		</Delegator_Pages>
+	</modules>
+	<frontend>
+		<routers>
+			<delegator_pages>
+				<use>standard</use>
+				<args>
+					<module>Delegator_Pages</module>
+					<frontName>delegator</frontName>
+				</args>
+			</delegator_pages>
+		</routers>
+		<layout>
+			<updates>
+				<delegator_pages module="delegator_pages">
+					<file>delegator_pages.xml</file>
+				</delegator_pages>
+			</updates>
+		</layout>
+	</frontend>
+	<global>
+		<blocks>
+			<delegator_pages>
+				<class>Delegator_Pages_Block</class>
+			</delegator_pages>
+		</blocks>
+		<helpers>
+			<pages>
+				<class>Delegator_Pages_Helper</class>
+			</pages>
+		</helpers>
+	</global>
+</config>
+
