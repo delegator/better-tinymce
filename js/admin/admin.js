@@ -1,4 +1,4 @@
-// ==== Delegator ==
+// ==== Delegator's Better TinyMCE config ==
   if(window.tinyMceWysiwygSetup)
   {
     tinyMceWysiwygSetup.prototype.originalGetSettings = tinyMceWysiwygSetup.prototype.getSettings;
