@@ -13,3 +13,4 @@ app/design/adminhtml/default/default/layout/*       app/design/adminhtml/default
 #Design
 app/design/frontend/base/default/layout/*           app/design/frontend/base/default/layout/
 app/design/frontend/base/default/template/*         app/design/frontend/base/default/template/
+skin/frontend/base/default/css/*                    skin/frontend/base/default/css/
