@@ -31,6 +31,9 @@ if(window.tinyMceWysiwygSetup)
       h4:     {block: 'h4', classes: 'cms'}
     };
 
+    settings.cleanup = false;
+    settings.verify_html = false;
+
     return settings;
   }
 }
