@@ -1,0 +1,28 @@
+{
+  "name": "delegator/better-tinymce",
+  "description": "Improvements on Magento's TinyMCE",
+  "version": "0.0.1",
+  "license": "proprietary",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://packages.firegento.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "extra": {
+    "map": [
+      ["app/code/local/Delegator/Adminjs", "app/code/local/Delegator/Adminjs"],
+      ["app/code/local/Delegator/Pages", "app/code/local/Delegator/Pages"],
+      ["app/design/adminhtml/default/default/layout/adminjs.xml", "app/design/adminhtml/default/default/layout/adminjs.xml"],
+      ["app/design/frontend/base/default/layout/delegator_pages.xml", "app/design/frontend/base/default/layout/delegator_pages.xml"],
+      ["app/design/frontend/base/default/template/delegator/preview.phtml", "app/design/frontend/base/default/template/delegator/preview.phtml"],
+      ["etc/modules/Delegator_Adminjs.xml", "etc/modules/Delegator_Adminjs.xml"],
+      ["etc/modules/Delegator_Pages.xml", "etc/modules/Delegator_Pages.xml"],
+      ["js/admin/admin.js", "js/admin/admin.js"],
+      ["skin/frontend/base/default/css/cms-styles.css", "skin/frontend/base/default/css/cms-styles.css"]
+    ]
+  }
+}
