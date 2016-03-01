@@ -1,7 +1,6 @@
 {
   "name": "delegator/better-tinymce",
   "description": "Improvements on Magento's TinyMCE",
-  "version": "0.0.1",
   "type": "magento-module",
   "license": "proprietary",
   "repositories": [
