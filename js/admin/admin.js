@@ -1,5 +1,5 @@
 /* global tinyMceWysiwygSetup */
-if (window.tinyMceWysiwygSetup !== 'undefined' && window.tinyMceWysiwygSetup !== null) {
+if (typeof tinyMceWysiwygSetup !== 'undefined' && tinyMceWysiwygSetup !== null) {
   tinyMceWysiwygSetup.prototype.originalGetSettings = tinyMceWysiwygSetup.prototype.getSettings
   tinyMceWysiwygSetup.prototype.getSettings = function (mode) {
     var settings = this.originalGetSettings(mode)
