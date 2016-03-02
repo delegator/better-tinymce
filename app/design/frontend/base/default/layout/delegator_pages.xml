@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout version="0.1.0">
-	<delegator_pages_preview_index>
-		<reference name="head">
-      <action method="setTitle" translate="title"><title>Delegator | WYSIWYG Style Preview</title></action>
-      <action method="addCss"><name>css/cms-styles.css</name></action>
-    </reference>
-    <reference name="root">
-     <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
-   </reference>
-   <reference name="content">
-     <block type="delegator_pages/content" name="pages.preview" template="delegator/preview.phtml" as="pages_preview"/>
-   </reference>
- </delegator_pages_preview_index>
+    <delegator_pages_preview_index>
+        <reference name="head">
+            <action method="setTitle" translate="title">
+                <title>Delegator | WYSIWYG Style Preview</title>
+            </action>
+            <action method="addCss">
+                <name>css/cms-styles.css</name>
+            </action>
+        </reference>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/2columns-right.phtml</template>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="delegator_pages/content" name="pages.preview" template="delegator/preview.phtml" as="pages_preview"/>
+        </reference>
+    </delegator_pages_preview_index>
 </layout>

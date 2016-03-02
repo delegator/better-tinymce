@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <config>
-  <modules>
-    <Delegator_Adminjs>
-      <active>true</active>
-      <codePool>local</codePool>
-    </Delegator_Adminjs>
-  </modules>
+    <modules>
+        <Delegator_Adminjs>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Delegator_Adminjs>
+    </modules>
 </config>
