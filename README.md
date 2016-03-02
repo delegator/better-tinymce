@@ -8,6 +8,16 @@ CMS styles and makes it stop eating all the HTML tags!
 This module is installable via composer. Alternatively, just download a ZIP
 of the repository and copy files to the appropriate locations.
 
+# Compiling assets
+
+```bash
+# Install dependencies
+npm install
+
+# Compile stylesheet
+$ npm run sass
+```
+
 # License
 
 Please see [LICENSE][1].
