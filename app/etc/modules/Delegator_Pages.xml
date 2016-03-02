@@ -1,9 +1,8 @@
-<?xml version="1.0"?>
 <config>
-  <modules>
-    <Delegator_Pages>
-      <active>true</active>
-      <codePool>local</codePool>
-    </Delegator_Pages>
-  </modules>
+    <modules>
+        <Delegator_Pages>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Delegator_Pages>
+    </modules>
 </config>

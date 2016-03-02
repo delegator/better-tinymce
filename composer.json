@@ -2,15 +2,10 @@
   "name": "delegator/better-tinymce",
   "description": "Improvements on Magento's TinyMCE",
   "type": "magento-module",
-  "license": "proprietary",
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "http://packages.firegento.com"
-    }
-  ],
+  "license": "Apache-2.0",
   "require": {
-    "php": ">=5.4"
+    "php": ">=5.4",
+    "magento-hackathon/magento-composer-installer": "*"
   },
   "extra": {
     "map": [

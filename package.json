@@ -1,23 +1,10 @@
 {
-  "name": "BetterTinyMCE",
-  "version": "0.0.1",
-  "description": "Better TinyMCE gruntfile",
+  "name": "better-tinymce",
+  "private": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass --output-style compressed skin/frontend/base/default/sass/styles.scss skin/frontend/base/default/css/cms-styles.css"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/delegator/better-tinymce.git"
-  },
-  "author": "Maureen Basil",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/delegator/better-tinymce/issues"
-  },
-  "homepage": "https://github.com/delegator/better-tinymce",
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-sass": "^0.8.1",
-    "grunt-contrib-watch": "^0.6.1"
+  "dependencies": {
+    "node-sass": "3.4.2"
   }
 }
